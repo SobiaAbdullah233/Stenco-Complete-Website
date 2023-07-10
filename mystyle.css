@@ -1,0 +1,93 @@
+@media only screen and (min-width: 991px) {
+    .menu-btn {
+        display: none !important
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sm-dropdown-icon {
+        display: block !important;
+        position: absolute;
+        right: 10px;
+        font-size: 16px;
+        z-index: 2;
+        top: 10px;
+    }
+}
+
+body{
+    background-color: #fff;
+    color: #777;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0; 
+}
+body,a{
+    outline: 0 !important;
+}
+a{
+    color: #04438d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.icon-css {
+    font-size: 30px;
+    padding: 5px;
+    color: #04438d;
+}
+.content-banner{
+    color:#ffffff;
+    min-height:400px;
+    height:100px;
+    position:relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 125px;
+}
+.content-banner:before{
+    position:absolute;
+    content:"";
+    width:100%;
+    background-color: (75 ,49,49,0.7);
+    top:0;
+    left:0;
+    z-index:1;
+}
+.header-btn{
+    color:#da8080;
+
+}
+.navbar-scroll{
+    background-color: #ffffff;
+    padding:0;
+    position:fixed;
+    top:0;
+    z-index:99;
+    
+}
+.nav-item .nav-link{
+display:block;
+line-height: 36px;
+text-transform: capitalize;
+font-size: 16px;
+font-weight: 500;
+color:#ffffff;
+transition: 0.157;
+}
+.nabbar-scroll .nav-item .nav-link{
+    color:black;
+}
+.navbar-scroll .header-btn{
+    color:#ffffff;
+    background-color: #fe4066;
+}
+section{
+    background-color: white;
+    
+}
